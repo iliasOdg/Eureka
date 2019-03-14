@@ -1,0 +1,26 @@
+.banner-parallax { 
+    /* The image used */
+    background-image: url("src/assets/img/parallax1-bg.jpg");
+    
+    /* Set a specific height */
+    
+    height: 573px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 4.5%;
+}
+
+.search-form{
+    padding-top: 0px;
+    margin-top: 9px;
+    padding-left: 20px;
+    font-weight: 300;
+    //background-color: #d3d3d32e;
+}
+
+.form-control:focus {
+    border-color: default-primary-dark;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+    }
